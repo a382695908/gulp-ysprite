@@ -25,7 +25,7 @@ gulp.src('test/*.css').pipe(ySprite({
     slice: 'test/slice',
     sprite: 'test/sprite',
     callback: function(stream){
-        stream.pipe(gulp.dest(dir));
+        stream.pipe(gulp.dest('test/output'));
     }
 }));
 ```
