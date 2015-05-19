@@ -1,9 +1,9 @@
 # gulp-ysprite
 gulp插件gulp-ysprite，特点如下：
--合并样式中的含有slice的背景图片
--生成sprite文件夹，包含合并后的sprite图片
--自动更新原CSS文件中的样式
--适用制作普通PC和H5使用，包含生成二倍图和对应样式
+* 合并样式中的含有slice的背景图片
+* 生成sprite文件夹，包含合并后的sprite图片
+* 自动更新原CSS文件中的样式
+* 适用制作普通PC和H5使用，包含生成二倍图和对应样式
 ## 安装
 ```
 npm install --save-dev gulp-ysprite
