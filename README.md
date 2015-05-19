@@ -21,7 +21,7 @@ callback(stream)：回调函数，返回stream流
 var gulp = require('gulp');
 var ySprite = require('gulp-ysprite');
 
-gulp.src('style/**/*.css').pipe(ySprite({
+gulp.src('test/*.css').pipe(ySprite({
     slice: 'test/slice',
     sprite: 'test/sprite',
     callback: function(stream){
